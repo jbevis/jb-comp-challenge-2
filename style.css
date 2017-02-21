@@ -1,0 +1,276 @@
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  max-width: 1285px;
+}
+
+.main-head {
+  background-color: #474544;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  margin-left: 15px;
+  color: #474544;
+}
+
+nav {
+  align-self: flex-end;
+  display: flex;
+  width: 66.67%;
+  height: 100%;
+  top: 45px;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  font-size: 0.3em;
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.nav-text {
+  display: none;
+}
+
+img {
+  width: 50px;
+  cursor: pointer;
+}
+
+nav p{
+  display: inline;
+}
+
+.nav-icons {
+  padding: 0 15px;
+  width: 35px;
+}
+
+#username {
+  width: 25px;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 15px;
+  width: 33.33%;
+  height: 100%;
+  margin: 15px 0;
+}
+
+.header-logo p {
+  display: none;
+  color: white;
+  font-size: 0.7em;
+  margin-right: 10px;
+}
+
+.header-logo img {
+  margin: 5px;
+}
+
+#title {
+  background-color: #C6C5B4;
+  color: #474544;
+  height: 100%;
+  width: 100%;
+}
+
+#title h1 {
+  margin: 0;
+  padding: 15px;
+}
+
+#profile-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #C6C5B4;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-card {
+  background-color: #EDE5DA;
+  width: 300px;
+  box-shadow: 3px 2px 8px grey;
+  margin: 10px 10px;
+}
+
+.profile-card:hover {
+  box-shadow: none;
+  background-blend-mode
+}
+
+.profile-header {
+  width: 100%;
+  height: 150px;
+}
+
+
+.profile-header img {
+  padding: 10px;
+}
+
+ul {
+  color: white;
+  decoration: none;
+  list-style: none;
+  float: right;
+  margin: 5px 10px;
+}
+
+li {
+  font-size: 2em;
+}
+
+.profile-body {
+  padding: 10px;
+  color: #474544;
+}
+
+.park-name {
+  margin-top: 0;
+}
+
+.est-date {
+  margin-top: -15px;
+}
+
+.park-url {
+  background-color: #DDD5D0;
+  width: 80%;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.to-do-list {
+  margin-top: -20px;
+}
+
+.visitor-count {
+  margin-top: -20px;
+  margin-bottom: 0;
+  font-size: 2em;
+  color: #C56C39;
+}
+
+#rmnp-header {
+  background: url(images/image_rmnp.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#yosemite-header {
+  background: url(images/image_yosemite.jpg) no-repeat center;
+  background-size: cover;
+
+}
+
+#zion-header {
+  background: url(images/image_zion.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#mv-header {
+  background: url(images/image_mesaverde.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#teton-header {
+  background: url(images/image_teton.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#arches-header {
+  background: url(images/image_arches.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#glacier-header {
+  background: url(images/image_glacier.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#jtree-header {
+  background: url(images/image_jtree.jpg) no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 640px){
+  .header-logo {
+    width: 25%;
+  }
+
+  nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 75%;
+  }
+
+  .nav-text {
+    display: inherit;
+    margin-right: 10px;
+    font-size: 3em;
+    cursor: pointer;
+  }
+
+  .nav-text:hover {
+    color: #76935A;
+  }
+
+  .header-logo {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .header-logo p {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 675px) {
+  #profile-box {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .header-logo {
+    width: 17%;
+  }
+
+}
+
+@media screen and (min-width: 960px) {
+  .header-logo {
+    width: 15%;
+  }
+
+  #profile-box {
+    justify-content: flex-start;
+  }
+}
