@@ -117,14 +117,13 @@ nav p{
 
 .profile-card:hover {
   box-shadow: none;
-  background-blend-mode
+  background-blend-mode: transparent;
 }
 
 .profile-header {
   width: 100%;
   height: 150px;
 }
-
 
 .profile-header img {
   padding: 10px;
@@ -180,42 +179,88 @@ a {
 #rmnp-header {
   background: url(images/image_rmnp.jpg) no-repeat center;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
+
+#rmnp-header:hover {
+  background-color: transparent;
 }
 
 #yosemite-header {
   background: url(images/image_yosemite.jpg) no-repeat center;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
 
+#yosemite-header:hover {
+  background-color: transparent;
 }
 
 #zion-header {
   background: url(images/image_zion.jpg) no-repeat center;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
+
+#zion-header:hover {
+  background-color: transparent;
 }
 
 #mv-header {
   background: url(images/image_mesaverde.jpg) no-repeat center;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
+
+#mv-header:hover {
+  background-color: transparent;
 }
 
 #teton-header {
   background: url(images/image_teton.jpg) no-repeat center;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
+
+#teton-header:hover {
+  background-color: transparent;
 }
 
 #arches-header {
   background: url(images/image_arches.jpg) no-repeat center;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
+
+#arches-header:hover {
+  background-color: transparent;
 }
 
 #glacier-header {
   background: url(images/image_glacier.jpg) no-repeat center;
   background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
+
+#glacier-header:hover {
+  background-color: transparent;
 }
 
 #jtree-header {
   background: url(images/image_jtree.jpg) no-repeat center;
-  background-size: cover;
+  background-size: cover;background-blend-mode: overlay;
+  background-color: #4f4e4e;
+}
+
+#jtree-header:hover {
+  background-color: transparent;
 }
 
 @media screen and (min-width: 640px){
