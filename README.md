@@ -51,4 +51,5 @@ header class="main-head">
 Below is the comp on which the challenge is based and my version.
 ![comp_mockup](comp_mockup.jpg)
 
-![my_version](my_version.jpg)
+![my_version](my_version.png)
+
